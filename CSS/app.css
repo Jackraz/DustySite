@@ -1,9 +1,28 @@
-body{
+body {
     font-family: 'Roboto', sans-serif!important;
         background-color: #f3f3f3!important;
 }
 body, html {
     height: 100%;
+}
+footer div p {
+    color: #aaa;
+    font-size: 0.9em;
+}
+.footer-rule {
+    height: 1px;
+    background-color: #aaa;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-text {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 /***** Start Nav *****/
@@ -17,6 +36,7 @@ body, html {
     margin-bottom: 20px!important;
     z-index: 101!important;
     background: rgba(255, 255, 255, 0.5)!important;
+    border: 0px!important;
 }
 .navbar-toggle .icon-bar {
     background-color: #333;
@@ -71,7 +91,7 @@ body, html {
 /***** Start Hero *****/
 .hero-bck {
     /* The image used */
-    background-image: url("../Image/banner.png");
+    background-image: url("../Image/holdbanner.jpg");
     /* Set a specific height */
     height: 70%;
     /* Position and center the image to scale nicely on all screens */
@@ -111,8 +131,8 @@ body, html {
 }
 
 .content-section {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     margin:20px;
     border-radius: 2px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -121,5 +141,14 @@ body, html {
 
 .content-section:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.content-section h3 {
+}
+
+.content-section .subtext {
+    color: #aaa;
+    font-size: 0.9em;
+    margin-bottom: 30px;
 }
 /***** End Blog *****/
