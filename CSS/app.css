@@ -38,22 +38,24 @@ footer div p {
 .navbar {
     margin-bottom: 0!important;
     border-radius: 0!important;
-    position: fixed!important;
     width: 100%!important;
     top: 0!important;
     min-height: 50px!important;
-    margin-bottom: 20px!important;
-    z-index: 101!important;
-    background: rgba(255, 255, 255, 0.5)!important;
+    background: rgb(255, 255, 255)!important;
     border: 0px!important;
 }
-.navbar-toggle .icon-bar {
-    background-color: #333;
+.navbar-flex {
+    display: flex;
+    justify-content: space-between;
 }
-.navbar-nav>li>a {
+.navbar-flex>li {
+    width: 34%;
+    border: 0px!important;
+}
+.navbar-flex>li>a {
     transition: background-color .2s;
 }
-.navbar-nav>li>a:hover {
+.navbar-flex>li>a:hover {
     transition: background-color .2s;
     text-decoration: underline!important;
 }
@@ -69,7 +71,7 @@ footer div p {
 }
 .active{
     text-decoration: none;
-    background-color: #f4f4f4;
+    background-color: #ccc;
 }
 /***** End Nav *****/
 
@@ -106,7 +108,7 @@ footer div p {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #aaa;
+    background-color: rgba(0, 0, 0, 0.3);
     color: white;
     cursor: pointer;
     padding: 15px 15px 10px 15px;
@@ -115,7 +117,7 @@ footer div p {
 }
 
 #scrollTop:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: rgba(0, 0, 0, 0.6); /* Add a dark-grey background on hover */
 }
 /****** End Scroll Top ******/
 
