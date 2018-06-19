@@ -47,6 +47,7 @@ footer div p {
 .navbar-flex {
     display: flex;
     justify-content: space-between;
+    font-family:  'Crimson Text', serif;
     /*border-top: 1px solid #333;
     border-bottom: 1px solid #333;*/
 }
@@ -117,17 +118,17 @@ footer div p {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
     cursor: pointer;
-    padding: 15px 15px 10px 15px;
-    border-radius: 10px;
+    padding: 10px 10px 5px 10px;
+    border-radius: 2px;
     font-size: 18px;
 }
 
-#scrollTop:hover {
-    background-color: rgba(0, 0, 0, 0.6); /* Add a dark-grey background on hover */
-}
+/*#scrollTop:hover {
+    background-color: rgba(0, 0, 0, 1); /* Add a dark-grey background on hover 
+}*/
 /****** End Scroll Top ******/
 
 /***** Start Hero *****/
@@ -187,10 +188,6 @@ footer div p {
 .content-section h3 {
     font-family:  'Crimson Text', serif;
     font-size: 34px;
-}
-.content-section h3>span {
-    font-family:  'Crimson Text', serif;
-    font-size: 46px;
 }
 .content-section .subtext {
     font-size: 0.9em;
