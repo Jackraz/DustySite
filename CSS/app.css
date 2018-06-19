@@ -189,11 +189,16 @@ footer div p {
     font-size: 34px;
 }
 .content-section .subtext {
-    font-size: 0.9em;
-    margin-bottom: 30px;
+    font-size: 0.9em
+}
+.blog-bg-1>.content-text{
+    font-family: 'EB Garamond', sans-serif!important;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 35px;
 }
 .tags{
-    margin: 40px 0px 15px 0px;
+    margin: 0px 0px 15px 0px;
 }
 .tags>span{
     margin-right: 4px;
@@ -202,15 +207,8 @@ footer div p {
     background-color: #333!important;
 }
 .label {
-    display: inline;
     padding: .3em .6em .3em!important;
-    font-size: 75%;
     font-weight: 500!important;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
     border-radius: 1px!important;
 }
 /***** End Blog *****/
