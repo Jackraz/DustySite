@@ -48,6 +48,7 @@ footer div p {
     display: flex;
     justify-content: space-between;
     font-family:  'Crimson Text', serif;
+    letter-spacing: 0.2em;
     /*border-top: 1px solid #333;
     border-bottom: 1px solid #333;*/
 }
@@ -191,7 +192,8 @@ footer div p {
     color: black;
 }
 .content-section .subtext {
-    font-size: 0.9em
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
 }
 .content-text{
     font-family: 'EB Garamond', sans-serif!important;
@@ -212,6 +214,8 @@ footer div p {
     padding: .3em .6em .3em!important;
     font-weight: 500!important;
     border-radius: 1px!important;
+    font-size: 90%!important;
+    letter-spacing: 0.1em;
 }
 /***** End Blog *****/
 
