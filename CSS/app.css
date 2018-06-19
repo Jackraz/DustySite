@@ -134,7 +134,7 @@ footer div p {
 /***** Start Hero *****/
 .hero-bck {
     /* The image used */
-    background-image: url("../Image/holdbanner2.JPG");
+    background-image: url("../Image/banner.png");
     /* Set a specific height */
     height: 70%;
     /* Position and center the image to scale nicely on all screens */
