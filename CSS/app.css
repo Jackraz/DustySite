@@ -73,7 +73,9 @@ footer div p {
 .nav-link{
     color: #333!important;
     font-weight: 100;
-    font-size: 1.4em;
+    font-size: 1.7em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .nav-title{
     color: #333!important;
@@ -226,7 +228,8 @@ footer div p {
 .about-title{
     font-family:  'Crimson Text', serif;
     font-weight: 100;
-    font-size: 62px;
+    font-size: 38px;
+    margin-top: 20px;
     color: black;
 }
 .about-img {
