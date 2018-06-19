@@ -1,5 +1,6 @@
 body {
-    font-family: 'Roboto', sans-serif!important;
+    /*font-family: 'Roboto', sans-serif!important;*/
+    font-family: 'EB Garamond', sans-serif!important;
 	/*background-color: #f3f3f3!important;*/
 }
 body, html {
@@ -135,7 +136,7 @@ footer div p {
     /* The image used */
     background-image: url("../Image/banner.png");
     /* Set a specific height */
-    height: 70%;
+    height: 65%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
