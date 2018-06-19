@@ -40,15 +40,15 @@ footer div p {
     border-radius: 0!important;
     width: 100%!important;
     top: 0!important;
-    min-height: 50px!important;
+    min-height: 20px!important;
     background: rgb(255, 255, 255)!important;
     border: 0px!important;
 }
 .navbar-flex {
     display: flex;
     justify-content: space-between;
-    border-top: 2px solid #333;
-    border-bottom: 2px solid #333;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
 }
 .navbar-flex>li {
     width: 34%;
@@ -60,9 +60,12 @@ footer div p {
     transition: background-color .2s;
     text-decoration: underline!important;
 }
+.nav>li>a {
+    padding: 0px!important;
+}
 .center-nav-option{
-    border-left: 2px solid #333;
-    border-right: 2px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
 }
 .nav-link{
     color: #333!important;
@@ -75,8 +78,8 @@ footer div p {
     font-size: 4em!important;
 }
 .active{
-    text-decoration: none;
-    background-color: #ccc;
+    text-decoration: underline;
+    /*background-color: #ccc;*/
 }
 /***** End Nav *****/
 
