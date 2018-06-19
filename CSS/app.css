@@ -187,11 +187,12 @@ footer div p {
 .content-section h3 {
     font-family:  'Crimson Text', serif;
     font-size: 34px;
+    color: black;
 }
 .content-section .subtext {
     font-size: 0.9em
 }
-.blog-bg-1>.content-text{
+.content-text{
     font-family: 'EB Garamond', sans-serif!important;
     font-size: 17px;
     margin-top: 30px;
@@ -218,8 +219,10 @@ footer div p {
     display: flex;
 }
 .about-title{
+    font-family:  'Crimson Text', serif;
     font-weight: 100;
     font-size: 62px;
+    color: black;
 }
 .about-img {
     object-fit: cover;
