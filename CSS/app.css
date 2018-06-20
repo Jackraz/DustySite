@@ -9,6 +9,7 @@ body, html {
 footer div p {
     color: #333;
     font-size: 0.9em;
+	flex: 1;
 }
 .footer-rule {
     height: 1px;
@@ -224,6 +225,7 @@ footer div p {
 .about{
     margin-bottom:30px;
     display: flex;
+	flex-wrap: wrap;
 }
 .about-title{
     font-family:  'Crimson Text', serif;
@@ -237,8 +239,9 @@ footer div p {
     width: 250px;
     margin: 10px;
     border-radius: 2px;
+	flex: initial;
 }
 .about-content{
     margin-left: 20px;
-    width: 100%;
+	flex: 1;
 }
